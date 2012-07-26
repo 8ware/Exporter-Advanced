@@ -1,0 +1,32 @@
+=pod
+
+=head1 NAME
+
+Exporter::Advanced version 0.01 - An extainsion of the Perl's
+Exporter-module enabling configure a module with flags and properties
+
+=head1 DESCRIPTION
+
+This modules extends the Exporter-module by provide an advanced
+C<import>-subroutine which recognizes specified property-keys. Beside
+the common C<EXPORT*>-arrays/hashes a new C<CONFIGURATION>-hash is
+used to specify which properties can be set to configure the module.
+
+=head1 INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+=head1 COPYRIGHT AND LICENCE
+
+Copyright (C) 2012 by 8ware
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.14.2 or,
+at your option, any later version of Perl 5 you may have available.
+
+=cut
