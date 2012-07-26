@@ -3,4 +3,5 @@ Makefile.PL
 MANIFEST
 README.pod
 t/Exporter-Advanced.t
+t/Mock/Module.pm
 lib/Exporter/Advanced.pm
