@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-Exporter::Advanced version 0.01 - An extainsion of the Perl's
+Exporter::Advanced version 0.01 - An extension of the Perl's
 Exporter-module enabling configure a module with flags and properties
 
 =head1 DESCRIPTION
